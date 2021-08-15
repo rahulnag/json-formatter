@@ -4,13 +4,16 @@
   <meta charset="UTF-8">
   <title>My JSON Formatter</title>
   <meta author="Rahul Nag">
-  <meta description="An offline tool to format JSON">
+  <meta description="An online tool to format JSON">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
   <style>
     body{
       margin: 0px;
       padding: 0px;
       background-color: #E6E6E6;
-      font-family: Verdana;
+      font-family: 'Varela Round', sans-serif;;
     }
 
     a {
@@ -64,7 +67,9 @@
       border-radius: 10px;
     }
     textarea{
-      font-size: x-large;
+      font-size: medium;
+	  white-space: nowrap;
+	  padding:13px;
     }
 
     #json-output{
@@ -109,7 +114,8 @@
       <textarea id="json-output" onpaste="return false;" ondrop="return false;" autocomplete="off" ></textarea><br><br>
     </div>
     <div class="footer">
-      <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=rahul.nag@bridgei2i.com">Made by rahul.nag@bridgei2i.com</a>
+      <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=mr.rahulnag625@gmail.com">Made with by Rahul Nag</a>
+	  <a href="https://www.capscode.com">Check More Products from us</a>
     </div>
   </div>
   <script>
@@ -172,13 +178,5 @@
       return json;
     }
   </script>
-  <!-- <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    ga('create', 'UA-42571831-2', 'fadamiao.github.io');
-    ga('send', 'pageview');
-  </script> -->
 </body>
 </html>
